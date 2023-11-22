@@ -20,3 +20,4 @@ auto            vfat     /devices/platform/mt_usb*                              
 /seccfg         emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/seccfg       flags=display=seccfg
 /tee1           emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee1         flags=display=tee1
 /tee2           emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee2         flags=display=tee2
+/emulated       fuse     /dev/fuse                                                          flags=display=emulated
