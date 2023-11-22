@@ -22,7 +22,7 @@ auto            vfat     /devices/platform/mt_usb*                              
 /tee2           emmc     /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee2         flags=backup=1;subpartitionof=/tee1
 #
 /system_image	emmc	/dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/system        flags=display="System Image";backup=1;flashimg=1
-/storage        fuse    /dev/fuse                                                           flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
+/storage        fuse    /data/media/0                                                       flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
 
 #
 /external_sd	auto	/dev/block/mmcblk1p1	/dev/block/mmcblk1	                        flags=display="External SDcard";storage;wipeingui;removable;backup=0
